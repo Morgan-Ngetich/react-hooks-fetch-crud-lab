@@ -29,6 +29,9 @@ function QuestionList() {
     <section>
       <h1>Quiz Questions</h1>
       <ul>
+        {/* questions !== null: This part checks if the questions variable is not null. 
+        In React, during the initial render, state variables might be null or have some default value until they are updated with actual data.
+        This check ensures that the map function is not called on null, which would result in an error. */}
         {questions !== null && questions.map((question) => (
           <QuestionItem 
             key={question.id} 
