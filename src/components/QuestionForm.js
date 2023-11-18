@@ -39,7 +39,7 @@ function QuestionForm() {
     console.log("FormData", formData);
 
     // Assuming you have a server endpoint to send the data
-    fetch("http://localhost:3000/questions", {
+    fetch("https://my-json-server.typicode.com/react-hooks-fetch-crud-lab/Bank-of-flatiron/questions", {
       method: "POST",
       headers: {
         "Content-type": "application/json",

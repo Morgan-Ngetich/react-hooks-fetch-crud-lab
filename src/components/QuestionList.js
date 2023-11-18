@@ -5,7 +5,7 @@ function QuestionList() {
   const [questions, setQuestions] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/questions")
+    fetch("https://my-json-server.typicode.com/react-hooks-fetch-crud-lab/Bank-of-flatiron/questions")
       .then((res) => res.json())
       .then((data) => setQuestions(data));
   }, []);
@@ -18,7 +18,7 @@ function QuestionList() {
   };
 
   function deleteQuestion(id) {
-    fetch(`http://localhost:3000/questions/${id}`,{
+    fetch(`https://my-json-server.typicode.com/react-hooks-fetch-crud-lab/Bank-of-flatiron/questions/${id}`,{
       method: "DELETE",      
     })
     handleDelete(id)
