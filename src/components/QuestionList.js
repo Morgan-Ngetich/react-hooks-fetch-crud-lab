@@ -29,7 +29,7 @@ function QuestionList() {
     <section>
       <h1>Quiz Questions</h1>
       <ul>
-        {questions && questions.map((question) => (
+        {questions !== null && questions.map((question) => (
           <QuestionItem 
             key={question.id} 
             question={question}
