@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-hooks-fetch-crud-lab/static/css/main.c6d21469.css",
-    "main.js": "/react-hooks-fetch-crud-lab/static/js/main.8fe04e9d.js",
+    "main.js": "/react-hooks-fetch-crud-lab/static/js/main.eaf1d238.js",
     "index.html": "/react-hooks-fetch-crud-lab/index.html",
     "main.c6d21469.css.map": "/react-hooks-fetch-crud-lab/static/css/main.c6d21469.css.map",
-    "main.8fe04e9d.js.map": "/react-hooks-fetch-crud-lab/static/js/main.8fe04e9d.js.map"
+    "main.eaf1d238.js.map": "/react-hooks-fetch-crud-lab/static/js/main.eaf1d238.js.map"
   },
   "entrypoints": [
     "static/css/main.c6d21469.css",
-    "static/js/main.8fe04e9d.js"
+    "static/js/main.eaf1d238.js"
   ]
 }
