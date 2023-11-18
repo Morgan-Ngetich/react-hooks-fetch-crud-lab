@@ -16,7 +16,6 @@ function QuestionList() {
       prevQuestions.filter((question) => question.id !== deletedId)
     );
   };
-
   function deleteQuestion(id) {
     fetch(`https://my-json-server.typicode.com/Morgan-Ngetich/react-hooks-fetch-crud-lab/questions/${id}`,{
       method: "DELETE",      
